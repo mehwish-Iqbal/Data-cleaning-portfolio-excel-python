@@ -1,0 +1,61 @@
+# E-Commerce Sales Data Cleaning Project (Excel)
+
+## Project Overview
+This project focuses on cleaning and preparing a messy e-commerce sales dataset using Microsoft Excel. The dataset contained missing values, inconsistent formatting, invalid entries, duplicate records, and data quality issues. The goal was to transform raw data into a clean and analysis-ready dataset.
+
+## Tools Used
+- Microsoft Excel
+- Data Cleaning Techniques
+- Basic Data Validation
+
+## Data Cleaning Steps Performed
+
+### 1. Data Inspection
+- Reviewed dataset structure and column information.
+- Identified missing values, invalid entries, and inconsistencies.
+
+### 2. Duplicate Removal
+- Checked for duplicate records using Order_ID.
+- Removed duplicate rows to ensure data accuracy.
+
+### 3. Missing Value Handling
+- Identified blank cells in categorical columns.
+- Replaced missing category values with "Unknown" where appropriate.
+
+### 4. Date Formatting
+- Corrected date formatting issues.
+- Converted inconsistent date values into a standard format.
+
+### 5. Text Standardization
+- Removed extra spaces using TRIM.
+- Standardized text formatting and naming conventions.
+- Corrected inconsistent category and product names.
+
+### 6. Numeric Data Cleaning
+- Identified invalid values in Price and Quantity columns.
+- Removed symbols and corrected data types.
+- Converted text-based numeric values into proper numbers.
+
+### 7. Negative Value Handling
+- Detected negative quantities and invalid records.
+- Corrected or removed inappropriate values.
+
+### 8. Total Column Validation
+- Verified that Total = Quantity × Price.
+- Corrected inconsistent calculations.
+
+### 9. Final Quality Check
+- Reviewed the cleaned dataset for accuracy and consistency.
+- Prepared the dataset for Exploratory Data Analysis (EDA).
+
+## Key Skills Demonstrated
+- Data Cleaning
+- Data Validation
+- Data Quality Assessment
+- Excel Functions (TRIM, Filters, Find & Replace)
+- Handling Missing Values
+- Duplicate Detection and Removal
+- Data Standardization
+
+## Outcome
+Successfully transformed a messy e-commerce dataset into a clean, structured, and analysis-ready dataset. This project demonstrates practical data cleaning skills commonly used in real-world data analyst workflows.
